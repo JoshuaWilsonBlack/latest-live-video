@@ -4,7 +4,7 @@ The **Latest Live Video** Plugin is a very simple extension for [Grav CMS](http:
 It uses the Facebook graph API to return the most recent live video from a page.
 The plugin was developed for the Anglican Parish of
 Saint Michael and All Angels. See the streaming module at the bottom of the
-homepage [here](www.stmichaelandallangels.nz).
+homepage [here](https://www.stmichaelandallangels.nz).
 
 ## Installation
 
