@@ -1,0 +1,5 @@
+enabled: true
+active_page: /streaming
+page_id:
+page_access_id: 
+text_var: Custom Text added by the **Latest Live Video** plugin (disable plugin to remove)

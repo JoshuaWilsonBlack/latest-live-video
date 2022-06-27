@@ -1,0 +1,40 @@
+name: Latest Live Video
+slug: latest-live-video
+type: plugin
+version: 0.1.0
+description: Returns embedded video of latest live video published by FB page. Requires long life page access code.
+icon: plug
+author:
+  name: Joshua Black
+  email: black.joshuad@gmail.com
+homepage: https://github.com/joshua-black/grav-plugin-latest-live-video
+demo: http://demo.yoursite.com
+keywords: grav, plugin, etc
+bugs: https://github.com/joshua-black/grav-plugin-latest-live-video/issues
+docs: https://github.com/joshua-black/grav-plugin-latest-live-video/blob/develop/README.md
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.6.0' }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    text_var:
+      type: text
+      label: PLUGIN_LATEST_LIVE_VIDEO.TEXT_VARIABLE
+      help: PLUGIN_LATEST_LIVE_VIDEO.TEXT_VARIABLE_HELP
+    page_access_id:
+      type: test
+      label: PLUGIN_LATEST_LIVE_VIDEO.PAGE_ACCESS_ID
+      help: PLUGIN_LATEST_LIVE_VIDEO.PAGE_ACCESS_ID_HELP
